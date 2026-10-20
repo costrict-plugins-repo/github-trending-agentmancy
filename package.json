@@ -1,0 +1,32 @@
+{
+  "name": "agentmancy",
+  "version": "0.1.4",
+  "description": "AI Agent & Skill Builder for Claude Code, OpenCode, and Gemini",
+  "module": "index.ts",
+  "type": "module",
+  "bin": {
+    "agentmancy": "./bin/install.ts"
+  },
+  "scripts": {
+    "install": "bun bin/install.ts",
+    "test": "bun test"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "opencode",
+    "gemini",
+    "ai",
+    "agents",
+    "skills",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
